@@ -26,10 +26,11 @@
 #define RANGE_ZONE 100 //portée de la zone de la tourelle ZONE
 #define RANGE_LASER 150 //portée du tir LASER
 #define FIRST_HP_ENNEMY 100
-#define GOLD 170
+#define GOLD 500
+//170
 #define HP_ENNEMY(wave_c) (100 + 80*(wave_c))
 #define NB_ENNEMY_IN_WAVE(wave_c)(3+(wave_c)*2)
-#define VITESSE_ENNEMY(wave_c) (50 + (wave_c)*10)
+#define VITESSE_ENNEMY(wave_c) (50 + (wave_c)*5)
 
 /* macro fonctions */
 #define sqr(i) ((i)*(i))

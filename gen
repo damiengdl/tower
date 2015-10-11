@@ -1,0 +1,1 @@
+gcc -g tower_8.c -o tower_8 -L/usr/local/lib/tableaunoir -lTableauNoir -lm
